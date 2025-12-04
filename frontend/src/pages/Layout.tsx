@@ -7,14 +7,14 @@ import { useNavigate, useLocation } from 'react-router-dom'; // 1. Import hooks
 
 interface LayoutProps {
   children: React.ReactNode;
-  activePage: string; 
+  activePage: string; // This prop acts as a fallback for styling
   title: string;
   subtitle: string;
 }
 
 export default function Layout({ children, activePage, title, subtitle }: LayoutProps) {
-  const navigate = useNavigate(); 
-  const location = useLocation(); 
+  const navigate = useNavigate(); // 2. Initialize navigation
+  const location = useLocation(); // 3. Get current location for active state
 
   const menuItems = [
     { icon: <LayoutDashboard size={20} />, label: 'Dashboard', path: '/patient' },

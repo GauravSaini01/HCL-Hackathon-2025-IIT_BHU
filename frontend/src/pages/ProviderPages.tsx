@@ -65,7 +65,7 @@ const ProviderSidebar = () => {
           className="flex items-center gap-4 px-4 py-3 text-blue-100 hover:text-white hover:bg-white/10 rounded-xl cursor-pointer transition-colors"
         >
           <LogOut size={20} />
-          <span className="font-medium text-sm">Switch to Patient</span>
+          <span className="font-medium text-sm">Log out</span>
         </div>
       </div>
     </aside>

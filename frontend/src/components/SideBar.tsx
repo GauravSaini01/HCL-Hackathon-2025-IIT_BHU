@@ -1,3 +1,4 @@
+
 import { useNavigate, useLocation } from 'react-router-dom';
 import { 
   LayoutDashboard, Activity, Moon, Utensils, Dumbbell, Brain, 
@@ -59,7 +60,7 @@ const SideBar = () => {
             className="flex items-center gap-4 px-4 py-2 text-gray-400 hover:text-gray-600 cursor-pointer transition-colors"
         >
           <LogOut size={20} />
-          <span>Switch to Provider</span>
+          <span>Log out</span>
         </div>
 
         <div className="flex items-center justify-between px-4">

@@ -22,6 +22,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import SideBar from '../components/SideBar';
 
 
+
 // --- Page Specific Components ---
 
 const MetricCard = ({ title, value, unit, icon, trend, colorClass }: any) => (
